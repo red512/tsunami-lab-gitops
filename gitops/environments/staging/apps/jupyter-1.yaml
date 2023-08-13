@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/red512/tsunami-lab-gitops.git
     targetRevision: HEAD
-    path: gitops/environments/staging/apps
+    path: gitops/environments/staging/jupyter-1
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
