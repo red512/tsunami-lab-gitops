@@ -1,13 +1,13 @@
-apiVersion: autoscaling/v1
-kind: HorizontalPodAutoscaler
-metadata:
-  name: jupyter-1-hpa
-  namespace: jupyter-1
-spec:
-  scaleTargetRef:
-    apiVersion: apps/v1
-    kind: Deployment
-    name: jupyter-1-deployment  
-  minReplicas: 1
-  maxReplicas: 2
-  targetCPUUtilizationPercentage: 50
+# apiVersion: autoscaling/v1
+# kind: HorizontalPodAutoscaler
+# metadata:
+#   name: jupyter-1-hpa
+#   namespace: jupyter-1
+# spec:
+#   scaleTargetRef:
+#     apiVersion: apps/v1
+#     kind: Deployment
+#     name: jupyter-1-deployment  
+#   minReplicas: 1
+#   maxReplicas: 2
+#   targetCPUUtilizationPercentage: 50
