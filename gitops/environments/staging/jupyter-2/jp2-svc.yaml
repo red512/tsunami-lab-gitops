@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: jupyter-2-service
-  namespace: webapp-flask-fe
+  namespace: upyter-2
 spec:
   type: LoadBalancer
   # type: NodePort
