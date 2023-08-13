@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: jupyter-1
+  namespace: jupyter-1
 spec:
   replicas: 1
   selector:
