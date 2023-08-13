@@ -9,7 +9,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/red512/dig-gitops
+    repoURL: https://github.com/red512/tsunami-lab-gitops.git
     targetRevision: HEAD
     path: gitops/environments/staging/apps
   destination:
