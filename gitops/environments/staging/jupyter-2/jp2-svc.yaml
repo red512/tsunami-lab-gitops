@@ -1,14 +1,14 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: jupyter-2-service
-  namespace: jupyter-2
-spec:
-  type: LoadBalancer
-  # type: NodePort
-  selector:
-    app: jupyter-2
-  ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 8888
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: jupyter-2-service
+#   namespace: jupyter-2
+# spec:
+#   type: LoadBalancer
+#   # type: NodePort
+#   selector:
+#     app: jupyter-2
+#   ports:
+#   - protocol: TCP
+#     port: 80
+#     targetPort: 8888
