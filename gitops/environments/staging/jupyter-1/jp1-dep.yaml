@@ -21,5 +21,7 @@ spec:
         args: ["start-notebook.sh", "--NotebookApp.token=''"]
         resources:
           limits:
-            memory: "256Mi"
-            cpu: "500m"
+            memory: "128Mi"
+            cpu: "256m"
+            # memory: "256Mi"
+            # cpu: "500m"
